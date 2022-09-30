@@ -1,0 +1,11 @@
+body {
+    margin: 400px;
+}
+
+.wrapper{
+    display: grid;
+    gap: 2px;
+    grid-template-columns: repeat(5, [col] 100px );
+    grid-template-rows: repeat(2, [row] auto);
+    background-color: blue;
+}
